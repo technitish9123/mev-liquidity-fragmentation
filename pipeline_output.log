@@ -1,0 +1,50 @@
+============================================================
+Step 1: Loading data  [mode=real]
+============================================================
+  DataFrame: 263 rows × 23 columns
+
+--- Table 1: Summary Statistics ---
+  MEV Intensity         : mean=0.423  std=0.548  min=0.062  max=3.106
+  ETH Volatility        : mean=0.037  std=0.013  min=0.006  max=0.071
+  Avg. Gas (Gwei)       : mean=1.163  std=1.683  min=0.026  max=12.011
+  Total Volume ($M)     : mean=387.431  std=0.000  min=387.431  max=387.431
+  Active Pools          : mean=239.156  std=17.813  min=202.000  max=275.000
+  Nodes                 : mean=190.544  std=12.646  min=161.000  max=216.000
+  Edges                 : mean=212.369  std=15.232  min=179.000  max=243.000
+
+--- Table 2: Connectivity by MEV Regime ---
+  LOW    MEV (87 windows):
+    Modularity          : 0.274 ± 0.026
+    Spectral Gap        : 0.132 ± 0.015
+    Eff. Connectivity   : 0.970 ± 0.010
+    Path Length         : 2.526 ± 0.018
+  HIGH   MEV (87 windows):
+    Modularity          : 0.235 ± 0.041
+    Spectral Gap        : 0.121 ± 0.041
+    Eff. Connectivity   : 0.978 ± 0.019
+    Path Length         : 2.478 ± 0.040
+
+--- Data Provenance ---
+  real        :  263 windows (100%)
+
+============================================================
+Step 2: Figure 1 — Modularity Evolution
+============================================================
+  Saved: /Users/nitish/Desktop/research/mev-liquidity-fragmentation/output/figures/fig1_modularity.png
+  Saved: /Users/nitish/Desktop/research/mev-liquidity-fragmentation/output/figures/fig1_modularity.pdf
+
+============================================================
+Step 3: Figure 2 — Phase Transition
+============================================================
+  Saved: /Users/nitish/Desktop/research/mev-liquidity-fragmentation/output/figures/fig2_phase_transition.png
+  Saved: /Users/nitish/Desktop/research/mev-liquidity-fragmentation/output/figures/fig2_phase_transition.pdf
+
+============================================================
+Step 4: Figure 3 — Spectral Gap
+============================================================
+  Saved: /Users/nitish/Desktop/research/mev-liquidity-fragmentation/output/figures/fig3_spectral_gap.png
+  Saved: /Users/nitish/Desktop/research/mev-liquidity-fragmentation/output/figures/fig3_spectral_gap.pdf
+
+============================================================
+DONE — figures saved to output/figures/ and paper/figures/
+============================================================

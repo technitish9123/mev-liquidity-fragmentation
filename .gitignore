@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large/generated files (regenerate with: python3 figures/generate_figures.py)
+data/synthetic/*.csv
+output/figures/*.png
+output/figures/*.pdf
+
+# Real data cache (large, regenerate with pipeline)
+data/cache/uniswap/pool_history_*.json
+data/cache/zeromev/relay_block_*.json
+data/cache/etherscan/block_*.json
+# Keep: pool list, ETH prices (small, good to track)
+!data/cache/uniswap/uniswap_v3_pool_list.json
+!data/cache/coingecko/eth_prices_2025.json
+
+# Compiled PDFs in paper dir (compile from paper.tex)
+paper/*.pdf
+!paper/figures/*.pdf
+.claude/
+paper/

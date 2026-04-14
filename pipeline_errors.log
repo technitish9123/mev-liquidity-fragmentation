@@ -1,0 +1,813 @@
+11:22:14  INFO     pipeline — Pipeline start | mode=real | windows=263 | blocks 21,700,000→24,328,000
+11:22:14  INFO     pipeline — Pre-fetching pool histories (first run: ~105s, subsequent: instant)…
+11:22:14  INFO     src.fetchers.uniswap_subgraph — Prefetching 300 pool histories (delay=0.35s each)…
+11:22:14  INFO     src.fetchers.uniswap_subgraph —   First run: ~105s | Subsequent runs: instant (cache hit)
+11:22:15  INFO     src.fetchers.uniswap_subgraph — Prefetch complete: 300/300 histories cached (was_cached=300, newly_fetched=0)
+11:22:15  INFO     pipeline — Fetching ETH/USD prices from CryptoCompare…
+11:22:15  INFO     pipeline —   → 401 daily price points
+11:22:15  INFO     pipeline — Processing 263 windows with 3 threads…
+11:22:15  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21715000 (2025-01-03) → 300 pools assembled
+11:22:15  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21705000 (2025-01-01) → 300 pools assembled
+11:22:15  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21725000 (2025-01-04) → 300 pools assembled
+11:22:15  INFO     src.fetchers.zeromev — MEV relay window [21700000, 21710000): fetched 10/10 blocks
+11:22:15  INFO     src.fetchers.zeromev — MEV relay window [21710000, 21720000): fetched 10/10 blocks
+11:22:15  INFO     src.fetchers.zeromev — MEV relay window [21720000, 21730000): fetched 10/10 blocks
+11:22:15  INFO     src.fetchers.etherscan — Etherscan V2 window [21700000, 21710000): fetched 5/5 gas samples
+11:22:15  INFO     src.fetchers.etherscan — Etherscan V2 window [21710000, 21720000): fetched 5/5 gas samples
+11:22:15  INFO     src.fetchers.etherscan — Etherscan V2 window [21720000, 21730000): fetched 5/5 gas samples
+11:22:16  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21745000 (2025-01-07) → 300 pools assembled
+11:22:16  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21735000 (2025-01-05) → 300 pools assembled
+11:22:16  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21755000 (2025-01-08) → 300 pools assembled
+11:22:16  INFO     src.fetchers.zeromev — MEV relay window [21730000, 21740000): fetched 10/10 blocks
+11:22:16  INFO     src.fetchers.zeromev — MEV relay window [21740000, 21750000): fetched 10/10 blocks
+11:22:16  INFO     src.fetchers.zeromev — MEV relay window [21750000, 21760000): fetched 10/10 blocks
+11:22:16  INFO     src.fetchers.etherscan — Etherscan V2 window [21730000, 21740000): fetched 5/5 gas samples
+11:22:16  INFO     src.fetchers.etherscan — Etherscan V2 window [21740000, 21750000): fetched 5/5 gas samples
+11:22:16  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21765000 (2025-01-10) → 300 pools assembled
+11:22:16  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21775000 (2025-01-11) → 300 pools assembled
+11:22:16  INFO     src.fetchers.zeromev — MEV relay window [21770000, 21780000): fetched 10/10 blocks
+11:22:16  INFO     src.fetchers.zeromev — MEV relay window [21760000, 21770000): fetched 10/10 blocks
+11:22:16  INFO     src.fetchers.etherscan — Etherscan V2 window [21770000, 21780000): fetched 5/5 gas samples
+11:22:16  INFO     src.fetchers.etherscan — Etherscan V2 window [21760000, 21770000): fetched 5/5 gas samples
+11:22:17  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21785000 (2025-01-12) → 300 pools assembled
+11:22:17  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21795000 (2025-01-14) → 300 pools assembled
+11:22:17  INFO     src.fetchers.zeromev — MEV relay window [21780000, 21790000): fetched 10/10 blocks
+11:22:17  INFO     src.fetchers.zeromev — MEV relay window [21790000, 21800000): fetched 10/10 blocks
+11:22:17  INFO     src.fetchers.etherscan — Etherscan V2 window [21790000, 21800000): fetched 5/5 gas samples
+11:22:17  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21805000 (2025-01-15) → 300 pools assembled
+11:22:17  INFO     src.fetchers.zeromev — MEV relay window [21800000, 21810000): fetched 10/10 blocks
+11:22:17  INFO     src.fetchers.etherscan — Etherscan V2 window [21800000, 21810000): fetched 5/5 gas samples
+11:22:17  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21815000 (2025-01-16) → 300 pools assembled
+11:22:17  INFO     src.fetchers.zeromev — MEV relay window [21810000, 21820000): fetched 10/10 blocks
+11:22:19  INFO     src.fetchers.etherscan — Etherscan V2 window [21750000, 21760000): fetched 5/5 gas samples
+11:22:19  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21825000 (2025-01-18) → 300 pools assembled
+11:22:19  INFO     src.fetchers.zeromev — MEV relay window [21820000, 21830000): fetched 10/10 blocks
+11:22:19  INFO     src.fetchers.etherscan — Etherscan V2 window [21820000, 21830000): fetched 5/5 gas samples
+11:22:19  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21835000 (2025-01-19) → 300 pools assembled
+11:22:20  INFO     src.fetchers.zeromev — MEV relay window [21830000, 21840000): fetched 10/10 blocks
+11:22:20  INFO     src.fetchers.etherscan — Etherscan V2 window [21830000, 21840000): fetched 5/5 gas samples
+11:22:20  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21845000 (2025-01-21) → 300 pools assembled
+11:22:20  INFO     src.fetchers.zeromev — MEV relay window [21840000, 21850000): fetched 10/10 blocks
+11:22:20  INFO     src.fetchers.etherscan — Etherscan V2 window [21780000, 21790000): fetched 5/5 gas samples
+11:22:20  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21855000 (2025-01-22) → 300 pools assembled
+11:22:20  INFO     src.fetchers.zeromev — MEV relay window [21850000, 21860000): fetched 10/10 blocks
+11:22:20  INFO     src.fetchers.etherscan — Etherscan V2 window [21850000, 21860000): fetched 5/5 gas samples
+11:22:20  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21865000 (2025-01-23) → 300 pools assembled
+11:22:20  INFO     src.fetchers.zeromev — MEV relay window [21860000, 21870000): fetched 10/10 blocks
+11:22:22  INFO     src.fetchers.etherscan — Etherscan V2 window [21860000, 21870000): fetched 5/5 gas samples
+11:22:22  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21875000 (2025-01-25) → 300 pools assembled
+11:22:22  INFO     src.fetchers.zeromev — MEV relay window [21870000, 21880000): fetched 10/10 blocks
+11:22:24  INFO     src.fetchers.etherscan — Etherscan V2 window [21810000, 21820000): fetched 5/5 gas samples
+11:22:24  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21885000 (2025-01-26) → 300 pools assembled
+11:22:24  INFO     src.fetchers.zeromev — MEV relay window [21880000, 21890000): fetched 10/10 blocks
+11:22:26  INFO     src.fetchers.etherscan — Etherscan V2 window [21880000, 21890000): fetched 5/5 gas samples
+11:22:26  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21895000 (2025-01-28) → 300 pools assembled
+11:22:26  INFO     src.fetchers.zeromev — MEV relay window [21890000, 21900000): fetched 10/10 blocks
+11:22:26  INFO     src.fetchers.etherscan — Etherscan V2 window [21840000, 21850000): fetched 5/5 gas samples
+11:22:26  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21905000 (2025-01-29) → 300 pools assembled
+11:22:26  INFO     src.fetchers.zeromev — MEV relay window [21900000, 21910000): fetched 10/10 blocks
+11:22:26  INFO     src.fetchers.etherscan — Etherscan V2 window [21900000, 21910000): fetched 5/5 gas samples
+11:22:26  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21915000 (2025-01-30) → 300 pools assembled
+11:22:26  INFO     src.fetchers.zeromev — MEV relay window [21910000, 21920000): fetched 10/10 blocks
+11:22:27  INFO     src.fetchers.etherscan — Etherscan V2 window [21870000, 21880000): fetched 5/5 gas samples
+11:22:28  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21925000 (2025-02-01) → 300 pools assembled
+11:22:28  INFO     src.fetchers.zeromev — MEV relay window [21920000, 21930000): fetched 10/10 blocks
+11:22:28  INFO     src.fetchers.etherscan — Etherscan V2 window [21920000, 21930000): fetched 5/5 gas samples
+11:22:28  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21935000 (2025-02-02) → 300 pools assembled
+11:22:28  INFO     src.fetchers.zeromev — MEV relay window [21930000, 21940000): fetched 10/10 blocks
+11:22:28  INFO     src.fetchers.etherscan — Etherscan V2 window [21930000, 21940000): fetched 5/5 gas samples
+11:22:28  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21945000 (2025-02-04) → 300 pools assembled
+11:22:28  INFO     src.fetchers.zeromev — MEV relay window [21940000, 21950000): fetched 10/10 blocks
+11:22:29  INFO     src.fetchers.etherscan — Etherscan V2 window [21890000, 21900000): fetched 5/5 gas samples
+11:22:29  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21955000 (2025-02-05) → 300 pools assembled
+11:22:29  INFO     src.fetchers.zeromev — MEV relay window [21950000, 21960000): fetched 10/10 blocks
+11:22:31  INFO     src.fetchers.etherscan — Etherscan V2 window [21950000, 21960000): fetched 5/5 gas samples
+11:22:31  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21965000 (2025-02-06) → 300 pools assembled
+11:22:31  INFO     src.fetchers.zeromev — MEV relay window [21960000, 21970000): fetched 10/10 blocks
+11:22:31  INFO     src.fetchers.etherscan — Etherscan V2 window [21910000, 21920000): fetched 5/5 gas samples
+11:22:31  INFO     pipeline —   Progress: 25/263 (10%) | elapsed 17s | ETA 161s
+11:22:32  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21975000 (2025-02-08) → 300 pools assembled
+11:22:32  INFO     src.fetchers.zeromev — MEV relay window [21970000, 21980000): fetched 10/10 blocks
+11:22:32  INFO     src.fetchers.etherscan — Etherscan V2 window [21970000, 21980000): fetched 5/5 gas samples
+11:22:32  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21985000 (2025-02-09) → 300 pools assembled
+11:22:32  INFO     src.fetchers.zeromev — MEV relay window [21980000, 21990000): fetched 10/10 blocks
+11:22:32  INFO     src.fetchers.etherscan — Etherscan V2 window [21940000, 21950000): fetched 5/5 gas samples
+11:22:33  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 21995000 (2025-02-10) → 300 pools assembled
+11:22:33  INFO     src.fetchers.zeromev — MEV relay window [21990000, 22000000): fetched 10/10 blocks
+11:22:33  INFO     src.fetchers.etherscan — Etherscan V2 window [21990000, 22000000): fetched 5/5 gas samples
+11:22:33  INFO     src.fetchers.etherscan — Etherscan V2 window [21960000, 21970000): fetched 5/5 gas samples
+11:22:33  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22005000 (2025-02-12) → 300 pools assembled
+11:22:33  INFO     src.fetchers.zeromev — MEV relay window [22000000, 22010000): fetched 10/10 blocks
+11:22:33  INFO     src.fetchers.etherscan — Etherscan V2 window [22000000, 22010000): fetched 5/5 gas samples
+11:22:33  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22015000 (2025-02-13) → 300 pools assembled
+11:22:33  INFO     src.fetchers.zeromev — MEV relay window [22010000, 22020000): fetched 10/10 blocks
+11:22:33  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22025000 (2025-02-15) → 300 pools assembled
+11:22:33  INFO     src.fetchers.zeromev — MEV relay window [22020000, 22030000): fetched 10/10 blocks
+11:22:34  INFO     src.fetchers.etherscan — Etherscan V2 window [21980000, 21990000): fetched 5/5 gas samples
+11:22:34  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22035000 (2025-02-16) → 300 pools assembled
+11:22:34  INFO     src.fetchers.zeromev — MEV relay window [22030000, 22040000): fetched 10/10 blocks
+11:22:35  INFO     src.fetchers.etherscan — Etherscan V2 window [22010000, 22020000): fetched 5/5 gas samples
+11:22:35  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22045000 (2025-02-17) → 300 pools assembled
+11:22:35  INFO     src.fetchers.zeromev — MEV relay window [22040000, 22050000): fetched 10/10 blocks
+11:22:36  INFO     src.fetchers.etherscan — Etherscan V2 window [22020000, 22030000): fetched 5/5 gas samples
+11:22:37  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22055000 (2025-02-19) → 300 pools assembled
+11:22:37  INFO     src.fetchers.zeromev — MEV relay window [22050000, 22060000): fetched 10/10 blocks
+11:22:37  INFO     src.fetchers.etherscan — Etherscan V2 window [22030000, 22040000): fetched 5/5 gas samples
+11:22:37  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22065000 (2025-02-20) → 300 pools assembled
+11:22:37  INFO     src.fetchers.zeromev — MEV relay window [22060000, 22070000): fetched 10/10 blocks
+11:22:40  INFO     src.fetchers.etherscan — Etherscan V2 window [22060000, 22070000): fetched 5/5 gas samples
+11:22:41  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22075000 (2025-02-22) → 300 pools assembled
+11:22:41  INFO     src.fetchers.zeromev — MEV relay window [22070000, 22080000): fetched 10/10 blocks
+11:22:41  INFO     src.fetchers.etherscan — Etherscan V2 window [22070000, 22080000): fetched 5/5 gas samples
+11:22:41  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22085000 (2025-02-23) → 300 pools assembled
+11:22:41  INFO     src.fetchers.zeromev — MEV relay window [22080000, 22090000): fetched 10/10 blocks
+11:22:41  INFO     src.fetchers.etherscan — Etherscan V2 window [22080000, 22090000): fetched 5/5 gas samples
+11:22:41  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22095000 (2025-02-24) → 300 pools assembled
+11:22:41  INFO     src.fetchers.zeromev — MEV relay window [22090000, 22100000): fetched 10/10 blocks
+11:22:41  INFO     src.fetchers.etherscan — Etherscan V2 window [22040000, 22050000): fetched 5/5 gas samples
+11:22:42  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22105000 (2025-02-26) → 300 pools assembled
+11:22:42  INFO     src.fetchers.zeromev — MEV relay window [22100000, 22110000): fetched 10/10 blocks
+11:22:42  INFO     src.fetchers.etherscan — Etherscan V2 window [22050000, 22060000): fetched 5/5 gas samples
+11:22:42  INFO     src.fetchers.etherscan — Etherscan V2 window [22090000, 22100000): fetched 5/5 gas samples
+11:22:43  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22115000 (2025-02-27) → 300 pools assembled
+11:22:43  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22125000 (2025-03-01) → 300 pools assembled
+11:22:43  INFO     src.fetchers.zeromev — MEV relay window [22110000, 22120000): fetched 10/10 blocks
+11:22:43  INFO     src.fetchers.zeromev — MEV relay window [22120000, 22130000): fetched 10/10 blocks
+11:22:43  INFO     src.fetchers.etherscan — Etherscan V2 window [22120000, 22130000): fetched 5/5 gas samples
+11:22:43  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22135000 (2025-03-02) → 300 pools assembled
+11:22:43  INFO     src.fetchers.zeromev — MEV relay window [22130000, 22140000): fetched 10/10 blocks
+11:22:43  INFO     src.fetchers.etherscan — Etherscan V2 window [22130000, 22140000): fetched 5/5 gas samples
+11:22:43  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22145000 (2025-03-03) → 300 pools assembled
+11:22:43  INFO     src.fetchers.zeromev — MEV relay window [22140000, 22150000): fetched 10/10 blocks
+11:22:43  INFO     src.fetchers.etherscan — Etherscan V2 window [22140000, 22150000): fetched 5/5 gas samples
+11:22:43  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22155000 (2025-03-05) → 300 pools assembled
+11:22:43  INFO     src.fetchers.zeromev — MEV relay window [22150000, 22160000): fetched 10/10 blocks
+11:22:43  INFO     src.fetchers.etherscan — Etherscan V2 window [22150000, 22160000): fetched 5/5 gas samples
+11:22:44  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22165000 (2025-03-06) → 300 pools assembled
+11:22:44  INFO     src.fetchers.zeromev — MEV relay window [22160000, 22170000): fetched 10/10 blocks
+11:22:46  INFO     src.fetchers.etherscan — Etherscan V2 window [22160000, 22170000): fetched 5/5 gas samples
+11:22:46  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22175000 (2025-03-07) → 300 pools assembled
+11:22:46  INFO     src.fetchers.zeromev — MEV relay window [22170000, 22180000): fetched 10/10 blocks
+11:22:46  INFO     src.fetchers.etherscan — Etherscan V2 window [22110000, 22120000): fetched 5/5 gas samples
+11:22:46  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22185000 (2025-03-09) → 300 pools assembled
+11:22:46  INFO     src.fetchers.zeromev — MEV relay window [22180000, 22190000): fetched 10/10 blocks
+11:22:46  INFO     src.fetchers.etherscan — Etherscan V2 window [22100000, 22110000): fetched 5/5 gas samples
+11:22:47  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22195000 (2025-03-10) → 300 pools assembled
+11:22:47  INFO     src.fetchers.zeromev — MEV relay window [22190000, 22200000): fetched 10/10 blocks
+11:22:47  INFO     src.fetchers.etherscan — Etherscan V2 window [22190000, 22200000): fetched 5/5 gas samples
+11:22:47  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22205000 (2025-03-12) → 300 pools assembled
+11:22:47  INFO     src.fetchers.zeromev — MEV relay window [22200000, 22210000): fetched 10/10 blocks
+11:22:47  INFO     src.fetchers.etherscan — Etherscan V2 window [22200000, 22210000): fetched 5/5 gas samples
+11:22:47  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22215000 (2025-03-13) → 300 pools assembled
+11:22:47  INFO     src.fetchers.zeromev — MEV relay window [22210000, 22220000): fetched 10/10 blocks
+11:22:49  INFO     src.fetchers.etherscan — Etherscan V2 window [22170000, 22180000): fetched 5/5 gas samples
+11:22:49  INFO     pipeline —   Progress: 50/263 (19%) | elapsed 35s | ETA 147s
+11:22:49  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22225000 (2025-03-14) → 300 pools assembled
+11:22:49  INFO     src.fetchers.zeromev — MEV relay window [22220000, 22230000): fetched 10/10 blocks
+11:22:50  INFO     src.fetchers.etherscan — Etherscan V2 window [22210000, 22220000): fetched 5/5 gas samples
+11:22:51  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22235000 (2025-03-16) → 300 pools assembled
+11:22:51  INFO     src.fetchers.zeromev — MEV relay window [22230000, 22240000): fetched 10/10 blocks
+11:22:51  INFO     src.fetchers.etherscan — Etherscan V2 window [22230000, 22240000): fetched 5/5 gas samples
+11:22:51  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22245000 (2025-03-17) → 300 pools assembled
+11:22:51  INFO     src.fetchers.zeromev — MEV relay window [22240000, 22250000): fetched 10/10 blocks
+11:22:51  INFO     src.fetchers.etherscan — Etherscan V2 window [22220000, 22230000): fetched 5/5 gas samples
+11:22:51  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22255000 (2025-03-19) → 300 pools assembled
+11:22:51  INFO     src.fetchers.etherscan — Etherscan V2 window [22180000, 22190000): fetched 5/5 gas samples
+11:22:51  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22265000 (2025-03-20) → 300 pools assembled
+11:22:56  INFO     src.fetchers.etherscan — Etherscan V2 window [22240000, 22250000): fetched 5/5 gas samples
+11:22:56  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22275000 (2025-03-21) → 300 pools assembled
+11:23:17  INFO     src.fetchers.zeromev — MEV relay window [22250000, 22260000): fetched 10/10 blocks
+11:23:21  INFO     src.fetchers.zeromev — MEV relay window [22260000, 22270000): fetched 10/10 blocks
+11:23:25  INFO     src.fetchers.etherscan — Etherscan V2 window [22250000, 22260000): fetched 5/5 gas samples
+11:23:25  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22285000 (2025-03-23) → 300 pools assembled
+11:23:25  INFO     src.fetchers.zeromev — MEV relay window [22270000, 22280000): fetched 10/10 blocks
+11:23:29  INFO     src.fetchers.etherscan — Etherscan V2 window [22260000, 22270000): fetched 5/5 gas samples
+11:23:29  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22295000 (2025-03-24) → 300 pools assembled
+11:23:33  INFO     src.fetchers.etherscan — Etherscan V2 window [22270000, 22280000): fetched 5/5 gas samples
+11:23:34  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22305000 (2025-03-26) → 300 pools assembled
+11:23:54  INFO     src.fetchers.zeromev — MEV relay window [22280000, 22290000): fetched 10/10 blocks
+11:24:02  INFO     src.fetchers.zeromev — MEV relay window [22290000, 22300000): fetched 10/10 blocks
+11:24:02  INFO     src.fetchers.etherscan — Etherscan V2 window [22280000, 22290000): fetched 5/5 gas samples
+11:24:03  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22315000 (2025-03-27) → 300 pools assembled
+11:24:09  INFO     src.fetchers.zeromev — MEV relay window [22300000, 22310000): fetched 10/10 blocks
+11:24:09  INFO     src.fetchers.etherscan — Etherscan V2 window [22290000, 22300000): fetched 5/5 gas samples
+11:24:10  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22325000 (2025-03-28) → 300 pools assembled
+11:24:17  INFO     src.fetchers.etherscan — Etherscan V2 window [22300000, 22310000): fetched 5/5 gas samples
+11:24:17  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22335000 (2025-03-30) → 300 pools assembled
+11:24:35  INFO     src.fetchers.zeromev — MEV relay window [22310000, 22320000): fetched 10/10 blocks
+11:24:42  INFO     src.fetchers.zeromev — MEV relay window [22320000, 22330000): fetched 10/10 blocks
+11:24:43  INFO     src.fetchers.etherscan — Etherscan V2 window [22310000, 22320000): fetched 5/5 gas samples
+11:24:44  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22345000 (2025-03-31) → 300 pools assembled
+11:24:49  INFO     src.fetchers.zeromev — MEV relay window [22330000, 22340000): fetched 10/10 blocks
+11:24:50  INFO     src.fetchers.etherscan — Etherscan V2 window [22320000, 22330000): fetched 5/5 gas samples
+11:24:50  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22355000 (2025-04-01) → 300 pools assembled
+11:24:57  INFO     src.fetchers.etherscan — Etherscan V2 window [22330000, 22340000): fetched 5/5 gas samples
+11:24:57  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22365000 (2025-04-03) → 300 pools assembled
+11:25:16  INFO     src.fetchers.zeromev — MEV relay window [22340000, 22350000): fetched 10/10 blocks
+11:25:22  INFO     src.fetchers.zeromev — MEV relay window [22350000, 22360000): fetched 10/10 blocks
+11:25:24  INFO     src.fetchers.etherscan — Etherscan V2 window [22340000, 22350000): fetched 5/5 gas samples
+11:25:24  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22375000 (2025-04-04) → 300 pools assembled
+11:25:30  INFO     src.fetchers.zeromev — MEV relay window [22360000, 22370000): fetched 10/10 blocks
+11:25:30  INFO     src.fetchers.etherscan — Etherscan V2 window [22350000, 22360000): fetched 5/5 gas samples
+11:25:30  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22385000 (2025-04-06) → 300 pools assembled
+11:25:38  INFO     src.fetchers.etherscan — Etherscan V2 window [22360000, 22370000): fetched 5/5 gas samples
+11:25:38  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22395000 (2025-04-07) → 300 pools assembled
+11:25:57  INFO     src.fetchers.zeromev — MEV relay window [22370000, 22380000): fetched 10/10 blocks
+11:26:04  INFO     src.fetchers.zeromev — MEV relay window [22380000, 22390000): fetched 10/10 blocks
+11:26:05  INFO     src.fetchers.etherscan — Etherscan V2 window [22370000, 22380000): fetched 5/5 gas samples
+11:26:05  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22405000 (2025-04-08) → 300 pools assembled
+11:26:10  INFO     src.fetchers.zeromev — MEV relay window [22390000, 22400000): fetched 10/10 blocks
+11:26:12  INFO     src.fetchers.etherscan — Etherscan V2 window [22380000, 22390000): fetched 5/5 gas samples
+11:26:12  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22415000 (2025-04-10) → 300 pools assembled
+11:26:18  INFO     src.fetchers.etherscan — Etherscan V2 window [22390000, 22400000): fetched 5/5 gas samples
+11:26:19  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22425000 (2025-04-11) → 300 pools assembled
+11:26:37  INFO     src.fetchers.zeromev — MEV relay window [22400000, 22410000): fetched 10/10 blocks
+11:26:44  INFO     src.fetchers.zeromev — MEV relay window [22410000, 22420000): fetched 10/10 blocks
+11:26:45  INFO     src.fetchers.etherscan — Etherscan V2 window [22400000, 22410000): fetched 5/5 gas samples
+11:26:45  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22435000 (2025-04-13) → 300 pools assembled
+11:26:51  INFO     src.fetchers.zeromev — MEV relay window [22420000, 22430000): fetched 10/10 blocks
+11:26:52  INFO     src.fetchers.etherscan — Etherscan V2 window [22410000, 22420000): fetched 5/5 gas samples
+11:26:52  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22445000 (2025-04-14) → 300 pools assembled
+11:26:59  INFO     src.fetchers.etherscan — Etherscan V2 window [22420000, 22430000): fetched 5/5 gas samples
+11:26:59  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22455000 (2025-04-15) → 300 pools assembled
+11:27:18  INFO     src.fetchers.zeromev — MEV relay window [22430000, 22440000): fetched 10/10 blocks
+11:27:25  INFO     src.fetchers.zeromev — MEV relay window [22440000, 22450000): fetched 10/10 blocks
+11:27:26  INFO     src.fetchers.etherscan — Etherscan V2 window [22430000, 22440000): fetched 5/5 gas samples
+11:27:26  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22465000 (2025-04-17) → 300 pools assembled
+11:27:32  INFO     src.fetchers.zeromev — MEV relay window [22450000, 22460000): fetched 10/10 blocks
+11:27:33  INFO     src.fetchers.etherscan — Etherscan V2 window [22440000, 22450000): fetched 5/5 gas samples
+11:27:33  INFO     pipeline —   Progress: 75/263 (29%) | elapsed 319s | ETA 799s
+11:27:33  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22475000 (2025-04-18) → 300 pools assembled
+11:27:40  INFO     src.fetchers.etherscan — Etherscan V2 window [22450000, 22460000): fetched 5/5 gas samples
+11:27:40  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22485000 (2025-04-20) → 300 pools assembled
+11:27:58  INFO     src.fetchers.zeromev — MEV relay window [22460000, 22470000): fetched 10/10 blocks
+11:28:06  INFO     src.fetchers.zeromev — MEV relay window [22470000, 22480000): fetched 10/10 blocks
+11:28:06  INFO     src.fetchers.etherscan — Etherscan V2 window [22460000, 22470000): fetched 5/5 gas samples
+11:28:07  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22495000 (2025-04-21) → 300 pools assembled
+11:28:13  INFO     src.fetchers.zeromev — MEV relay window [22480000, 22490000): fetched 10/10 blocks
+11:28:14  INFO     src.fetchers.etherscan — Etherscan V2 window [22470000, 22480000): fetched 5/5 gas samples
+11:28:14  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22505000 (2025-04-22) → 300 pools assembled
+11:28:21  INFO     src.fetchers.etherscan — Etherscan V2 window [22480000, 22490000): fetched 5/5 gas samples
+11:28:21  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22515000 (2025-04-24) → 300 pools assembled
+11:28:39  INFO     src.fetchers.zeromev — MEV relay window [22490000, 22500000): fetched 10/10 blocks
+11:28:47  INFO     src.fetchers.zeromev — MEV relay window [22500000, 22510000): fetched 10/10 blocks
+11:28:49  INFO     src.fetchers.etherscan — Etherscan V2 window [22490000, 22500000): fetched 5/5 gas samples
+11:28:49  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22525000 (2025-04-25) → 300 pools assembled
+11:28:53  INFO     src.fetchers.zeromev — MEV relay window [22510000, 22520000): fetched 10/10 blocks
+11:28:55  INFO     src.fetchers.etherscan — Etherscan V2 window [22500000, 22510000): fetched 5/5 gas samples
+11:28:55  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22535000 (2025-04-26) → 300 pools assembled
+11:29:01  INFO     src.fetchers.etherscan — Etherscan V2 window [22510000, 22520000): fetched 5/5 gas samples
+11:29:01  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22545000 (2025-04-28) → 300 pools assembled
+11:29:21  INFO     src.fetchers.zeromev — MEV relay window [22520000, 22530000): fetched 10/10 blocks
+11:29:28  INFO     src.fetchers.zeromev — MEV relay window [22530000, 22540000): fetched 10/10 blocks
+11:29:30  INFO     src.fetchers.etherscan — Etherscan V2 window [22520000, 22530000): fetched 5/5 gas samples
+11:29:31  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22555000 (2025-04-29) → 300 pools assembled
+11:29:33  INFO     src.fetchers.zeromev — MEV relay window [22540000, 22550000): fetched 10/10 blocks
+11:29:36  INFO     src.fetchers.etherscan — Etherscan V2 window [22530000, 22540000): fetched 5/5 gas samples
+11:29:36  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22565000 (2025-05-01) → 300 pools assembled
+11:29:41  INFO     src.fetchers.etherscan — Etherscan V2 window [22540000, 22550000): fetched 5/5 gas samples
+11:29:42  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22575000 (2025-05-02) → 300 pools assembled
+11:30:03  INFO     src.fetchers.zeromev — MEV relay window [22550000, 22560000): fetched 10/10 blocks
+11:30:08  INFO     src.fetchers.zeromev — MEV relay window [22560000, 22570000): fetched 10/10 blocks
+11:30:11  INFO     src.fetchers.etherscan — Etherscan V2 window [22550000, 22560000): fetched 5/5 gas samples
+11:30:12  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22585000 (2025-05-03) → 300 pools assembled
+11:30:14  INFO     src.fetchers.zeromev — MEV relay window [22570000, 22580000): fetched 10/10 blocks
+11:30:16  INFO     src.fetchers.etherscan — Etherscan V2 window [22560000, 22570000): fetched 5/5 gas samples
+11:30:16  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22595000 (2025-05-05) → 300 pools assembled
+11:30:22  INFO     src.fetchers.etherscan — Etherscan V2 window [22570000, 22580000): fetched 5/5 gas samples
+11:30:22  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22605000 (2025-05-06) → 300 pools assembled
+11:30:44  INFO     src.fetchers.zeromev — MEV relay window [22580000, 22590000): fetched 10/10 blocks
+11:30:49  INFO     src.fetchers.zeromev — MEV relay window [22590000, 22600000): fetched 10/10 blocks
+11:30:52  INFO     src.fetchers.etherscan — Etherscan V2 window [22580000, 22590000): fetched 5/5 gas samples
+11:30:53  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22615000 (2025-05-08) → 300 pools assembled
+11:30:55  INFO     src.fetchers.zeromev — MEV relay window [22600000, 22610000): fetched 10/10 blocks
+11:30:57  INFO     src.fetchers.etherscan — Etherscan V2 window [22590000, 22600000): fetched 5/5 gas samples
+11:30:57  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22625000 (2025-05-09) → 300 pools assembled
+11:31:02  INFO     src.fetchers.etherscan — Etherscan V2 window [22600000, 22610000): fetched 5/5 gas samples
+11:31:03  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22635000 (2025-05-10) → 300 pools assembled
+11:31:25  INFO     src.fetchers.zeromev — MEV relay window [22610000, 22620000): fetched 10/10 blocks
+11:31:29  INFO     src.fetchers.zeromev — MEV relay window [22620000, 22630000): fetched 10/10 blocks
+11:31:33  INFO     src.fetchers.etherscan — Etherscan V2 window [22610000, 22620000): fetched 5/5 gas samples
+11:31:33  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22645000 (2025-05-12) → 300 pools assembled
+11:31:35  INFO     src.fetchers.zeromev — MEV relay window [22630000, 22640000): fetched 10/10 blocks
+11:31:37  INFO     src.fetchers.etherscan — Etherscan V2 window [22620000, 22630000): fetched 5/5 gas samples
+11:31:37  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22655000 (2025-05-13) → 300 pools assembled
+11:31:44  INFO     src.fetchers.etherscan — Etherscan V2 window [22630000, 22640000): fetched 5/5 gas samples
+11:31:44  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22665000 (2025-05-15) → 300 pools assembled
+11:32:08  INFO     src.fetchers.zeromev — MEV relay window [22640000, 22650000): fetched 10/10 blocks
+11:32:10  INFO     src.fetchers.zeromev — MEV relay window [22650000, 22660000): fetched 10/10 blocks
+11:32:16  INFO     src.fetchers.etherscan — Etherscan V2 window [22640000, 22650000): fetched 5/5 gas samples
+11:32:16  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22675000 (2025-05-16) → 300 pools assembled
+11:32:17  INFO     src.fetchers.zeromev — MEV relay window [22660000, 22670000): fetched 10/10 blocks
+11:32:18  INFO     src.fetchers.etherscan — Etherscan V2 window [22650000, 22660000): fetched 5/5 gas samples
+11:32:19  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22685000 (2025-05-17) → 300 pools assembled
+11:32:25  INFO     src.fetchers.etherscan — Etherscan V2 window [22660000, 22670000): fetched 5/5 gas samples
+11:32:25  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22695000 (2025-05-19) → 300 pools assembled
+11:32:49  INFO     src.fetchers.zeromev — MEV relay window [22670000, 22680000): fetched 10/10 blocks
+11:32:51  INFO     src.fetchers.zeromev — MEV relay window [22680000, 22690000): fetched 10/10 blocks
+11:32:56  INFO     src.fetchers.etherscan — Etherscan V2 window [22670000, 22680000): fetched 5/5 gas samples
+11:32:57  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22705000 (2025-05-20) → 300 pools assembled
+11:32:58  INFO     src.fetchers.zeromev — MEV relay window [22690000, 22700000): fetched 10/10 blocks
+11:33:00  INFO     src.fetchers.etherscan — Etherscan V2 window [22680000, 22690000): fetched 5/5 gas samples
+11:33:00  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22715000 (2025-05-21) → 300 pools assembled
+11:33:06  INFO     src.fetchers.etherscan — Etherscan V2 window [22690000, 22700000): fetched 5/5 gas samples
+11:33:06  INFO     pipeline —   Progress: 100/263 (38%) | elapsed 652s | ETA 1063s
+11:33:07  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22725000 (2025-05-23) → 300 pools assembled
+11:33:30  INFO     src.fetchers.zeromev — MEV relay window [22700000, 22710000): fetched 10/10 blocks
+11:33:32  INFO     src.fetchers.zeromev — MEV relay window [22710000, 22720000): fetched 10/10 blocks
+11:33:38  INFO     src.fetchers.etherscan — Etherscan V2 window [22700000, 22710000): fetched 5/5 gas samples
+11:33:39  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22735000 (2025-05-24) → 300 pools assembled
+11:33:39  INFO     src.fetchers.zeromev — MEV relay window [22720000, 22730000): fetched 10/10 blocks
+11:33:41  INFO     src.fetchers.etherscan — Etherscan V2 window [22710000, 22720000): fetched 5/5 gas samples
+11:33:41  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22745000 (2025-05-26) → 300 pools assembled
+11:33:47  INFO     src.fetchers.etherscan — Etherscan V2 window [22720000, 22730000): fetched 5/5 gas samples
+11:33:47  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22755000 (2025-05-27) → 300 pools assembled
+11:34:11  INFO     src.fetchers.zeromev — MEV relay window [22730000, 22740000): fetched 10/10 blocks
+11:34:13  INFO     src.fetchers.zeromev — MEV relay window [22740000, 22750000): fetched 10/10 blocks
+11:34:19  INFO     src.fetchers.etherscan — Etherscan V2 window [22730000, 22740000): fetched 5/5 gas samples
+11:34:19  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22765000 (2025-05-28) → 300 pools assembled
+11:34:20  INFO     src.fetchers.zeromev — MEV relay window [22750000, 22760000): fetched 10/10 blocks
+11:34:21  INFO     src.fetchers.etherscan — Etherscan V2 window [22740000, 22750000): fetched 5/5 gas samples
+11:34:21  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22775000 (2025-05-30) → 300 pools assembled
+11:34:28  INFO     src.fetchers.etherscan — Etherscan V2 window [22750000, 22760000): fetched 5/5 gas samples
+11:34:28  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22785000 (2025-05-31) → 300 pools assembled
+11:34:52  INFO     src.fetchers.zeromev — MEV relay window [22760000, 22770000): fetched 10/10 blocks
+11:34:54  INFO     src.fetchers.zeromev — MEV relay window [22770000, 22780000): fetched 10/10 blocks
+11:35:00  INFO     src.fetchers.etherscan — Etherscan V2 window [22760000, 22770000): fetched 5/5 gas samples
+11:35:00  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22795000 (2025-06-02) → 300 pools assembled
+11:35:00  INFO     src.fetchers.zeromev — MEV relay window [22780000, 22790000): fetched 10/10 blocks
+11:35:02  INFO     src.fetchers.etherscan — Etherscan V2 window [22770000, 22780000): fetched 5/5 gas samples
+11:35:02  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22805000 (2025-06-03) → 300 pools assembled
+11:35:08  INFO     src.fetchers.etherscan — Etherscan V2 window [22780000, 22790000): fetched 5/5 gas samples
+11:35:08  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22815000 (2025-06-04) → 300 pools assembled
+11:35:32  INFO     src.fetchers.zeromev — MEV relay window [22790000, 22800000): fetched 10/10 blocks
+11:35:34  INFO     src.fetchers.zeromev — MEV relay window [22800000, 22810000): fetched 10/10 blocks
+11:35:41  INFO     src.fetchers.zeromev — MEV relay window [22810000, 22820000): fetched 10/10 blocks
+11:35:41  INFO     src.fetchers.etherscan — Etherscan V2 window [22790000, 22800000): fetched 5/5 gas samples
+11:35:41  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22825000 (2025-06-06) → 300 pools assembled
+11:35:42  INFO     src.fetchers.etherscan — Etherscan V2 window [22800000, 22810000): fetched 5/5 gas samples
+11:35:42  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22835000 (2025-06-07) → 300 pools assembled
+11:35:49  INFO     src.fetchers.etherscan — Etherscan V2 window [22810000, 22820000): fetched 5/5 gas samples
+11:35:49  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22845000 (2025-06-09) → 300 pools assembled
+11:36:13  INFO     src.fetchers.zeromev — MEV relay window [22820000, 22830000): fetched 10/10 blocks
+11:36:15  INFO     src.fetchers.zeromev — MEV relay window [22830000, 22840000): fetched 10/10 blocks
+11:36:21  INFO     src.fetchers.zeromev — MEV relay window [22840000, 22850000): fetched 10/10 blocks
+11:36:21  INFO     src.fetchers.etherscan — Etherscan V2 window [22820000, 22830000): fetched 5/5 gas samples
+11:36:22  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22855000 (2025-06-10) → 300 pools assembled
+11:36:23  INFO     src.fetchers.etherscan — Etherscan V2 window [22830000, 22840000): fetched 5/5 gas samples
+11:36:23  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22865000 (2025-06-11) → 300 pools assembled
+11:36:29  INFO     src.fetchers.etherscan — Etherscan V2 window [22840000, 22850000): fetched 5/5 gas samples
+11:36:29  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22875000 (2025-06-13) → 300 pools assembled
+11:36:54  INFO     src.fetchers.zeromev — MEV relay window [22850000, 22860000): fetched 10/10 blocks
+11:36:55  INFO     src.fetchers.zeromev — MEV relay window [22860000, 22870000): fetched 10/10 blocks
+11:37:02  INFO     src.fetchers.zeromev — MEV relay window [22870000, 22880000): fetched 10/10 blocks
+11:37:02  INFO     src.fetchers.etherscan — Etherscan V2 window [22850000, 22860000): fetched 5/5 gas samples
+11:37:02  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22885000 (2025-06-14) → 300 pools assembled
+11:37:04  INFO     src.fetchers.etherscan — Etherscan V2 window [22860000, 22870000): fetched 5/5 gas samples
+11:37:04  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22895000 (2025-06-15) → 300 pools assembled
+11:37:10  INFO     src.fetchers.etherscan — Etherscan V2 window [22870000, 22880000): fetched 5/5 gas samples
+11:37:10  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22905000 (2025-06-17) → 300 pools assembled
+11:37:34  INFO     src.fetchers.zeromev — MEV relay window [22880000, 22890000): fetched 10/10 blocks
+11:37:38  INFO     src.fetchers.zeromev — MEV relay window [22890000, 22900000): fetched 10/10 blocks
+11:37:42  INFO     src.fetchers.etherscan — Etherscan V2 window [22880000, 22890000): fetched 5/5 gas samples
+11:37:42  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22915000 (2025-06-18) → 300 pools assembled
+11:37:42  INFO     src.fetchers.zeromev — MEV relay window [22900000, 22910000): fetched 10/10 blocks
+11:37:46  INFO     src.fetchers.etherscan — Etherscan V2 window [22890000, 22900000): fetched 5/5 gas samples
+11:37:46  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22925000 (2025-06-20) → 300 pools assembled
+11:37:50  INFO     src.fetchers.etherscan — Etherscan V2 window [22900000, 22910000): fetched 5/5 gas samples
+11:37:51  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22935000 (2025-06-21) → 300 pools assembled
+11:38:15  INFO     src.fetchers.zeromev — MEV relay window [22910000, 22920000): fetched 10/10 blocks
+11:38:19  INFO     src.fetchers.zeromev — MEV relay window [22920000, 22930000): fetched 10/10 blocks
+11:38:23  INFO     src.fetchers.etherscan — Etherscan V2 window [22910000, 22920000): fetched 5/5 gas samples
+11:38:23  INFO     src.fetchers.zeromev — MEV relay window [22930000, 22940000): fetched 10/10 blocks
+11:38:23  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22945000 (2025-06-22) → 300 pools assembled
+11:38:27  INFO     src.fetchers.etherscan — Etherscan V2 window [22920000, 22930000): fetched 5/5 gas samples
+11:38:27  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22955000 (2025-06-24) → 300 pools assembled
+11:38:31  INFO     src.fetchers.etherscan — Etherscan V2 window [22930000, 22940000): fetched 5/5 gas samples
+11:38:31  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22965000 (2025-06-25) → 300 pools assembled
+11:38:59  INFO     src.fetchers.zeromev — MEV relay window [22950000, 22960000): fetched 10/10 blocks
+11:39:01  INFO     src.fetchers.zeromev — MEV relay window [22940000, 22950000): fetched 10/10 blocks
+11:39:03  INFO     src.fetchers.zeromev — MEV relay window [22960000, 22970000): fetched 10/10 blocks
+11:39:08  INFO     src.fetchers.etherscan — Etherscan V2 window [22950000, 22960000): fetched 5/5 gas samples
+11:39:08  INFO     pipeline —   Progress: 125/263 (48%) | elapsed 1013s | ETA 1119s
+11:39:08  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22975000 (2025-06-27) → 300 pools assembled
+11:39:09  INFO     src.fetchers.etherscan — Etherscan V2 window [22940000, 22950000): fetched 5/5 gas samples
+11:39:10  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22985000 (2025-06-28) → 300 pools assembled
+11:39:12  INFO     src.fetchers.etherscan — Etherscan V2 window [22960000, 22970000): fetched 5/5 gas samples
+11:39:12  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 22995000 (2025-06-29) → 300 pools assembled
+11:39:41  INFO     src.fetchers.zeromev — MEV relay window [22970000, 22980000): fetched 10/10 blocks
+11:39:42  INFO     src.fetchers.zeromev — MEV relay window [22980000, 22990000): fetched 10/10 blocks
+11:39:44  INFO     src.fetchers.zeromev — MEV relay window [22990000, 23000000): fetched 10/10 blocks
+11:39:50  INFO     src.fetchers.etherscan — Etherscan V2 window [22970000, 22980000): fetched 5/5 gas samples
+11:39:50  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23005000 (2025-07-01) → 300 pools assembled
+11:39:50  INFO     src.fetchers.etherscan — Etherscan V2 window [22980000, 22990000): fetched 5/5 gas samples
+11:39:50  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23015000 (2025-07-02) → 300 pools assembled
+11:39:52  INFO     src.fetchers.etherscan — Etherscan V2 window [22990000, 23000000): fetched 5/5 gas samples
+11:39:52  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23025000 (2025-07-04) → 300 pools assembled
+11:40:22  INFO     src.fetchers.zeromev — MEV relay window [23010000, 23020000): fetched 10/10 blocks
+11:40:23  INFO     src.fetchers.zeromev — MEV relay window [23000000, 23010000): fetched 10/10 blocks
+11:40:25  INFO     src.fetchers.zeromev — MEV relay window [23020000, 23030000): fetched 10/10 blocks
+11:40:31  INFO     src.fetchers.etherscan — Etherscan V2 window [23010000, 23020000): fetched 5/5 gas samples
+11:40:31  INFO     src.fetchers.etherscan — Etherscan V2 window [23000000, 23010000): fetched 5/5 gas samples
+11:40:31  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23045000 (2025-07-06) → 300 pools assembled
+11:40:31  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23035000 (2025-07-05) → 300 pools assembled
+11:40:33  INFO     src.fetchers.etherscan — Etherscan V2 window [23020000, 23030000): fetched 5/5 gas samples
+11:40:34  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23055000 (2025-07-08) → 300 pools assembled
+11:41:03  INFO     src.fetchers.zeromev — MEV relay window [23040000, 23050000): fetched 10/10 blocks
+11:41:03  INFO     src.fetchers.zeromev — MEV relay window [23030000, 23040000): fetched 10/10 blocks
+11:41:06  INFO     src.fetchers.zeromev — MEV relay window [23050000, 23060000): fetched 10/10 blocks
+11:41:12  INFO     src.fetchers.etherscan — Etherscan V2 window [23040000, 23050000): fetched 5/5 gas samples
+11:41:12  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23065000 (2025-07-09) → 300 pools assembled
+11:41:12  INFO     src.fetchers.etherscan — Etherscan V2 window [23030000, 23040000): fetched 5/5 gas samples
+11:41:13  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23075000 (2025-07-10) → 300 pools assembled
+11:41:14  INFO     src.fetchers.etherscan — Etherscan V2 window [23050000, 23060000): fetched 5/5 gas samples
+11:41:15  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23085000 (2025-07-12) → 300 pools assembled
+11:41:44  INFO     src.fetchers.zeromev — MEV relay window [23060000, 23070000): fetched 10/10 blocks
+11:41:45  INFO     src.fetchers.zeromev — MEV relay window [23070000, 23080000): fetched 10/10 blocks
+11:41:47  INFO     src.fetchers.zeromev — MEV relay window [23080000, 23090000): fetched 10/10 blocks
+11:41:53  INFO     src.fetchers.etherscan — Etherscan V2 window [23060000, 23070000): fetched 5/5 gas samples
+11:41:53  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23095000 (2025-07-13) → 300 pools assembled
+11:41:53  INFO     src.fetchers.etherscan — Etherscan V2 window [23070000, 23080000): fetched 5/5 gas samples
+11:41:53  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23105000 (2025-07-15) → 300 pools assembled
+11:41:56  INFO     src.fetchers.etherscan — Etherscan V2 window [23080000, 23090000): fetched 5/5 gas samples
+11:41:56  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23115000 (2025-07-16) → 300 pools assembled
+11:42:25  INFO     src.fetchers.zeromev — MEV relay window [23090000, 23100000): fetched 10/10 blocks
+11:42:26  INFO     src.fetchers.zeromev — MEV relay window [23100000, 23110000): fetched 10/10 blocks
+11:42:28  INFO     src.fetchers.zeromev — MEV relay window [23110000, 23120000): fetched 10/10 blocks
+11:42:33  INFO     src.fetchers.etherscan — Etherscan V2 window [23090000, 23100000): fetched 5/5 gas samples
+11:42:34  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23125000 (2025-07-17) → 300 pools assembled
+11:42:34  INFO     src.fetchers.etherscan — Etherscan V2 window [23100000, 23110000): fetched 5/5 gas samples
+11:42:34  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23135000 (2025-07-19) → 300 pools assembled
+11:42:37  INFO     src.fetchers.etherscan — Etherscan V2 window [23110000, 23120000): fetched 5/5 gas samples
+11:42:37  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23145000 (2025-07-20) → 300 pools assembled
+11:43:06  INFO     src.fetchers.zeromev — MEV relay window [23120000, 23130000): fetched 10/10 blocks
+11:43:07  INFO     src.fetchers.zeromev — MEV relay window [23130000, 23140000): fetched 10/10 blocks
+11:43:09  INFO     src.fetchers.zeromev — MEV relay window [23140000, 23150000): fetched 10/10 blocks
+11:43:15  INFO     src.fetchers.etherscan — Etherscan V2 window [23120000, 23130000): fetched 5/5 gas samples
+11:43:15  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23155000 (2025-07-22) → 300 pools assembled
+11:43:15  INFO     src.fetchers.etherscan — Etherscan V2 window [23130000, 23140000): fetched 5/5 gas samples
+11:43:15  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23165000 (2025-07-23) → 300 pools assembled
+11:43:18  INFO     src.fetchers.etherscan — Etherscan V2 window [23140000, 23150000): fetched 5/5 gas samples
+11:43:18  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23175000 (2025-07-24) → 300 pools assembled
+11:43:47  INFO     src.fetchers.zeromev — MEV relay window [23150000, 23160000): fetched 10/10 blocks
+11:43:48  INFO     src.fetchers.zeromev — MEV relay window [23160000, 23170000): fetched 10/10 blocks
+11:43:50  INFO     src.fetchers.zeromev — MEV relay window [23170000, 23180000): fetched 10/10 blocks
+11:43:56  INFO     src.fetchers.etherscan — Etherscan V2 window [23150000, 23160000): fetched 5/5 gas samples
+11:43:56  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23185000 (2025-07-26) → 300 pools assembled
+11:43:57  INFO     src.fetchers.etherscan — Etherscan V2 window [23160000, 23170000): fetched 5/5 gas samples
+11:43:57  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23195000 (2025-07-27) → 300 pools assembled
+11:43:59  INFO     src.fetchers.etherscan — Etherscan V2 window [23170000, 23180000): fetched 5/5 gas samples
+11:43:59  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23205000 (2025-07-29) → 300 pools assembled
+11:44:28  INFO     src.fetchers.zeromev — MEV relay window [23180000, 23190000): fetched 10/10 blocks
+11:44:29  INFO     src.fetchers.zeromev — MEV relay window [23190000, 23200000): fetched 10/10 blocks
+11:44:31  INFO     src.fetchers.zeromev — MEV relay window [23200000, 23210000): fetched 10/10 blocks
+11:44:36  INFO     src.fetchers.etherscan — Etherscan V2 window [23180000, 23190000): fetched 5/5 gas samples
+11:44:37  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23215000 (2025-07-30) → 300 pools assembled
+11:44:38  INFO     src.fetchers.etherscan — Etherscan V2 window [23190000, 23200000): fetched 5/5 gas samples
+11:44:38  INFO     pipeline —   Progress: 150/263 (57%) | elapsed 1343s | ETA 1012s
+11:44:38  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23225000 (2025-07-31) → 300 pools assembled
+11:44:40  INFO     src.fetchers.etherscan — Etherscan V2 window [23200000, 23210000): fetched 5/5 gas samples
+11:44:40  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23235000 (2025-08-02) → 300 pools assembled
+11:45:09  INFO     src.fetchers.zeromev — MEV relay window [23210000, 23220000): fetched 10/10 blocks
+11:45:11  INFO     src.fetchers.zeromev — MEV relay window [23220000, 23230000): fetched 10/10 blocks
+11:45:12  INFO     src.fetchers.zeromev — MEV relay window [23230000, 23240000): fetched 10/10 blocks
+11:45:18  INFO     src.fetchers.etherscan — Etherscan V2 window [23210000, 23220000): fetched 5/5 gas samples
+11:45:18  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23245000 (2025-08-03) → 300 pools assembled
+11:45:19  INFO     src.fetchers.etherscan — Etherscan V2 window [23220000, 23230000): fetched 5/5 gas samples
+11:45:19  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23255000 (2025-08-04) → 300 pools assembled
+11:45:21  INFO     src.fetchers.etherscan — Etherscan V2 window [23230000, 23240000): fetched 5/5 gas samples
+11:45:21  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23265000 (2025-08-06) → 300 pools assembled
+11:45:51  INFO     src.fetchers.zeromev — MEV relay window [23240000, 23250000): fetched 10/10 blocks
+11:45:52  INFO     src.fetchers.zeromev — MEV relay window [23250000, 23260000): fetched 10/10 blocks
+11:45:53  INFO     src.fetchers.zeromev — MEV relay window [23260000, 23270000): fetched 10/10 blocks
+11:45:59  INFO     src.fetchers.etherscan — Etherscan V2 window [23240000, 23250000): fetched 5/5 gas samples
+11:45:59  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23275000 (2025-08-07) → 300 pools assembled
+11:46:00  INFO     src.fetchers.etherscan — Etherscan V2 window [23250000, 23260000): fetched 5/5 gas samples
+11:46:00  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23285000 (2025-08-09) → 300 pools assembled
+11:46:01  INFO     src.fetchers.etherscan — Etherscan V2 window [23260000, 23270000): fetched 5/5 gas samples
+11:46:01  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23295000 (2025-08-10) → 300 pools assembled
+11:46:32  INFO     src.fetchers.zeromev — MEV relay window [23270000, 23280000): fetched 10/10 blocks
+11:46:34  INFO     src.fetchers.zeromev — MEV relay window [23290000, 23300000): fetched 10/10 blocks
+11:46:34  INFO     src.fetchers.zeromev — MEV relay window [23280000, 23290000): fetched 10/10 blocks
+11:46:41  INFO     src.fetchers.etherscan — Etherscan V2 window [23270000, 23280000): fetched 5/5 gas samples
+11:46:41  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23305000 (2025-08-11) → 300 pools assembled
+11:46:42  INFO     src.fetchers.etherscan — Etherscan V2 window [23290000, 23300000): fetched 5/5 gas samples
+11:46:42  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23315000 (2025-08-13) → 300 pools assembled
+11:46:43  INFO     src.fetchers.etherscan — Etherscan V2 window [23280000, 23290000): fetched 5/5 gas samples
+11:46:43  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23325000 (2025-08-14) → 300 pools assembled
+11:47:14  INFO     src.fetchers.zeromev — MEV relay window [23300000, 23310000): fetched 10/10 blocks
+11:47:16  INFO     src.fetchers.zeromev — MEV relay window [23320000, 23330000): fetched 10/10 blocks
+11:47:18  INFO     src.fetchers.zeromev — MEV relay window [23310000, 23320000): fetched 10/10 blocks
+11:47:22  INFO     src.fetchers.etherscan — Etherscan V2 window [23300000, 23310000): fetched 5/5 gas samples
+11:47:22  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23335000 (2025-08-16) → 300 pools assembled
+11:47:24  INFO     src.fetchers.etherscan — Etherscan V2 window [23320000, 23330000): fetched 5/5 gas samples
+11:47:25  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23345000 (2025-08-17) → 300 pools assembled
+11:47:26  INFO     src.fetchers.etherscan — Etherscan V2 window [23310000, 23320000): fetched 5/5 gas samples
+11:47:27  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23355000 (2025-08-18) → 300 pools assembled
+11:47:54  INFO     src.fetchers.zeromev — MEV relay window [23330000, 23340000): fetched 10/10 blocks
+11:47:57  INFO     src.fetchers.zeromev — MEV relay window [23340000, 23350000): fetched 10/10 blocks
+11:47:59  INFO     src.fetchers.zeromev — MEV relay window [23350000, 23360000): fetched 10/10 blocks
+11:48:03  INFO     src.fetchers.etherscan — Etherscan V2 window [23330000, 23340000): fetched 5/5 gas samples
+11:48:03  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23365000 (2025-08-20) → 300 pools assembled
+11:48:06  INFO     src.fetchers.etherscan — Etherscan V2 window [23340000, 23350000): fetched 5/5 gas samples
+11:48:07  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23375000 (2025-08-21) → 300 pools assembled
+11:48:07  INFO     src.fetchers.etherscan — Etherscan V2 window [23350000, 23360000): fetched 5/5 gas samples
+11:48:07  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23385000 (2025-08-23) → 300 pools assembled
+11:48:35  INFO     src.fetchers.zeromev — MEV relay window [23360000, 23370000): fetched 10/10 blocks
+11:48:39  INFO     src.fetchers.zeromev — MEV relay window [23370000, 23380000): fetched 10/10 blocks
+11:48:40  INFO     src.fetchers.zeromev — MEV relay window [23380000, 23390000): fetched 10/10 blocks
+11:48:44  INFO     src.fetchers.etherscan — Etherscan V2 window [23360000, 23370000): fetched 5/5 gas samples
+11:48:44  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23395000 (2025-08-24) → 300 pools assembled
+11:48:48  INFO     src.fetchers.etherscan — Etherscan V2 window [23370000, 23380000): fetched 5/5 gas samples
+11:48:48  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23405000 (2025-08-25) → 300 pools assembled
+11:48:49  INFO     src.fetchers.etherscan — Etherscan V2 window [23380000, 23390000): fetched 5/5 gas samples
+11:48:49  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23415000 (2025-08-27) → 300 pools assembled
+11:49:17  INFO     src.fetchers.zeromev — MEV relay window [23390000, 23400000): fetched 10/10 blocks
+11:49:22  INFO     src.fetchers.zeromev — MEV relay window [23410000, 23420000): fetched 10/10 blocks
+11:49:22  INFO     src.fetchers.zeromev — MEV relay window [23400000, 23410000): fetched 10/10 blocks
+11:49:25  INFO     src.fetchers.etherscan — Etherscan V2 window [23390000, 23400000): fetched 5/5 gas samples
+11:49:25  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23425000 (2025-08-28) → 300 pools assembled
+11:49:30  INFO     src.fetchers.etherscan — Etherscan V2 window [23400000, 23410000): fetched 5/5 gas samples
+11:49:30  INFO     src.fetchers.etherscan — Etherscan V2 window [23410000, 23420000): fetched 5/5 gas samples
+11:49:31  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23435000 (2025-08-29) → 300 pools assembled
+11:49:31  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23445000 (2025-08-31) → 300 pools assembled
+11:49:58  INFO     src.fetchers.zeromev — MEV relay window [23420000, 23430000): fetched 10/10 blocks
+11:50:03  INFO     src.fetchers.zeromev — MEV relay window [23440000, 23450000): fetched 10/10 blocks
+11:50:05  INFO     src.fetchers.zeromev — MEV relay window [23430000, 23440000): fetched 10/10 blocks
+11:50:06  INFO     src.fetchers.etherscan — Etherscan V2 window [23420000, 23430000): fetched 5/5 gas samples
+11:50:06  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23455000 (2025-09-01) → 300 pools assembled
+11:50:12  INFO     src.fetchers.etherscan — Etherscan V2 window [23440000, 23450000): fetched 5/5 gas samples
+11:50:12  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23465000 (2025-09-03) → 300 pools assembled
+11:50:13  INFO     src.fetchers.etherscan — Etherscan V2 window [23430000, 23440000): fetched 5/5 gas samples
+11:50:13  INFO     pipeline —   Progress: 175/263 (67%) | elapsed 1679s | ETA 844s
+11:50:13  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23475000 (2025-09-04) → 300 pools assembled
+11:50:39  INFO     src.fetchers.zeromev — MEV relay window [23450000, 23460000): fetched 10/10 blocks
+11:50:45  INFO     src.fetchers.zeromev — MEV relay window [23460000, 23470000): fetched 10/10 blocks
+11:50:46  INFO     src.fetchers.zeromev — MEV relay window [23470000, 23480000): fetched 10/10 blocks
+11:50:48  INFO     src.fetchers.etherscan — Etherscan V2 window [23450000, 23460000): fetched 5/5 gas samples
+11:50:48  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23485000 (2025-09-05) → 300 pools assembled
+11:50:52  INFO     src.fetchers.etherscan — Etherscan V2 window [23460000, 23470000): fetched 5/5 gas samples
+11:50:53  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23495000 (2025-09-07) → 300 pools assembled
+11:50:54  INFO     src.fetchers.etherscan — Etherscan V2 window [23470000, 23480000): fetched 5/5 gas samples
+11:50:55  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23505000 (2025-09-08) → 300 pools assembled
+11:51:21  INFO     src.fetchers.zeromev — MEV relay window [23480000, 23490000): fetched 10/10 blocks
+11:51:26  INFO     src.fetchers.zeromev — MEV relay window [23490000, 23500000): fetched 10/10 blocks
+11:51:27  INFO     src.fetchers.zeromev — MEV relay window [23500000, 23510000): fetched 10/10 blocks
+11:51:30  INFO     src.fetchers.etherscan — Etherscan V2 window [23480000, 23490000): fetched 5/5 gas samples
+11:51:30  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23515000 (2025-09-10) → 300 pools assembled
+11:51:35  INFO     src.fetchers.etherscan — Etherscan V2 window [23490000, 23500000): fetched 5/5 gas samples
+11:51:35  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23525000 (2025-09-11) → 300 pools assembled
+11:51:36  INFO     src.fetchers.etherscan — Etherscan V2 window [23500000, 23510000): fetched 5/5 gas samples
+11:51:36  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23535000 (2025-09-12) → 300 pools assembled
+11:52:04  INFO     src.fetchers.zeromev — MEV relay window [23510000, 23520000): fetched 10/10 blocks
+11:52:09  INFO     src.fetchers.zeromev — MEV relay window [23530000, 23540000): fetched 10/10 blocks
+11:52:10  INFO     src.fetchers.zeromev — MEV relay window [23520000, 23530000): fetched 10/10 blocks
+11:52:12  INFO     src.fetchers.etherscan — Etherscan V2 window [23510000, 23520000): fetched 5/5 gas samples
+11:52:12  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23545000 (2025-09-14) → 300 pools assembled
+11:52:17  INFO     src.fetchers.etherscan — Etherscan V2 window [23530000, 23540000): fetched 5/5 gas samples
+11:52:17  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23555000 (2025-09-15) → 300 pools assembled
+11:52:18  INFO     src.fetchers.etherscan — Etherscan V2 window [23520000, 23530000): fetched 5/5 gas samples
+11:52:18  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23565000 (2025-09-17) → 300 pools assembled
+11:52:45  INFO     src.fetchers.zeromev — MEV relay window [23540000, 23550000): fetched 10/10 blocks
+11:52:50  INFO     src.fetchers.zeromev — MEV relay window [23550000, 23560000): fetched 10/10 blocks
+11:52:53  INFO     src.fetchers.etherscan — Etherscan V2 window [23540000, 23550000): fetched 5/5 gas samples
+11:52:53  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23575000 (2025-09-18) → 300 pools assembled
+11:52:55  INFO     src.fetchers.zeromev — MEV relay window [23560000, 23570000): fetched 10/10 blocks
+11:52:58  INFO     src.fetchers.etherscan — Etherscan V2 window [23550000, 23560000): fetched 5/5 gas samples
+11:52:58  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23585000 (2025-09-19) → 300 pools assembled
+11:53:04  INFO     src.fetchers.etherscan — Etherscan V2 window [23560000, 23570000): fetched 5/5 gas samples
+11:53:04  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23595000 (2025-09-21) → 300 pools assembled
+11:53:26  INFO     src.fetchers.zeromev — MEV relay window [23570000, 23580000): fetched 10/10 blocks
+11:53:31  INFO     src.fetchers.zeromev — MEV relay window [23580000, 23590000): fetched 10/10 blocks
+11:53:35  INFO     src.fetchers.etherscan — Etherscan V2 window [23570000, 23580000): fetched 5/5 gas samples
+11:53:35  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23605000 (2025-09-22) → 300 pools assembled
+11:53:37  INFO     src.fetchers.zeromev — MEV relay window [23590000, 23600000): fetched 10/10 blocks
+11:53:39  INFO     src.fetchers.etherscan — Etherscan V2 window [23580000, 23590000): fetched 5/5 gas samples
+11:53:39  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23615000 (2025-09-23) → 300 pools assembled
+11:53:45  INFO     src.fetchers.etherscan — Etherscan V2 window [23590000, 23600000): fetched 5/5 gas samples
+11:53:46  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23625000 (2025-09-25) → 300 pools assembled
+11:54:08  INFO     src.fetchers.zeromev — MEV relay window [23600000, 23610000): fetched 10/10 blocks
+11:54:12  INFO     src.fetchers.zeromev — MEV relay window [23610000, 23620000): fetched 10/10 blocks
+11:54:16  INFO     src.fetchers.etherscan — Etherscan V2 window [23600000, 23610000): fetched 5/5 gas samples
+11:54:16  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23635000 (2025-09-26) → 300 pools assembled
+11:54:18  INFO     src.fetchers.zeromev — MEV relay window [23620000, 23630000): fetched 10/10 blocks
+11:54:20  INFO     src.fetchers.etherscan — Etherscan V2 window [23610000, 23620000): fetched 5/5 gas samples
+11:54:20  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23645000 (2025-09-28) → 300 pools assembled
+11:54:26  INFO     src.fetchers.etherscan — Etherscan V2 window [23620000, 23630000): fetched 5/5 gas samples
+11:54:26  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23655000 (2025-09-29) → 300 pools assembled
+11:54:48  INFO     src.fetchers.zeromev — MEV relay window [23630000, 23640000): fetched 10/10 blocks
+11:54:52  INFO     src.fetchers.zeromev — MEV relay window [23640000, 23650000): fetched 10/10 blocks
+11:54:56  INFO     src.fetchers.etherscan — Etherscan V2 window [23630000, 23640000): fetched 5/5 gas samples
+11:54:56  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23665000 (2025-09-30) → 300 pools assembled
+11:54:58  INFO     src.fetchers.zeromev — MEV relay window [23650000, 23660000): fetched 10/10 blocks
+11:55:00  INFO     src.fetchers.etherscan — Etherscan V2 window [23640000, 23650000): fetched 5/5 gas samples
+11:55:01  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23675000 (2025-10-02) → 300 pools assembled
+11:55:06  INFO     src.fetchers.etherscan — Etherscan V2 window [23650000, 23660000): fetched 5/5 gas samples
+11:55:07  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23685000 (2025-10-03) → 300 pools assembled
+11:55:31  INFO     src.fetchers.zeromev — MEV relay window [23660000, 23670000): fetched 10/10 blocks
+11:55:34  INFO     src.fetchers.zeromev — MEV relay window [23670000, 23680000): fetched 10/10 blocks
+11:55:39  INFO     src.fetchers.etherscan — Etherscan V2 window [23660000, 23670000): fetched 5/5 gas samples
+11:55:39  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23695000 (2025-10-05) → 300 pools assembled
+11:55:40  INFO     src.fetchers.zeromev — MEV relay window [23680000, 23690000): fetched 10/10 blocks
+11:55:42  INFO     src.fetchers.etherscan — Etherscan V2 window [23670000, 23680000): fetched 5/5 gas samples
+11:55:42  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23705000 (2025-10-06) → 300 pools assembled
+11:55:49  INFO     src.fetchers.etherscan — Etherscan V2 window [23680000, 23690000): fetched 5/5 gas samples
+11:55:49  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23715000 (2025-10-07) → 300 pools assembled
+11:56:13  INFO     src.fetchers.zeromev — MEV relay window [23690000, 23700000): fetched 10/10 blocks
+11:56:15  INFO     src.fetchers.zeromev — MEV relay window [23700000, 23710000): fetched 10/10 blocks
+11:56:21  INFO     src.fetchers.etherscan — Etherscan V2 window [23690000, 23700000): fetched 5/5 gas samples
+11:56:21  INFO     pipeline —   Progress: 200/263 (76%) | elapsed 2046s | ETA 645s
+11:56:21  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23725000 (2025-10-09) → 300 pools assembled
+11:56:22  INFO     src.fetchers.zeromev — MEV relay window [23710000, 23720000): fetched 10/10 blocks
+11:56:23  INFO     src.fetchers.etherscan — Etherscan V2 window [23700000, 23710000): fetched 5/5 gas samples
+11:56:23  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23735000 (2025-10-10) → 300 pools assembled
+11:56:30  INFO     src.fetchers.etherscan — Etherscan V2 window [23710000, 23720000): fetched 5/5 gas samples
+11:56:30  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23745000 (2025-10-12) → 300 pools assembled
+11:56:55  INFO     src.fetchers.zeromev — MEV relay window [23720000, 23730000): fetched 10/10 blocks
+11:56:56  INFO     src.fetchers.zeromev — MEV relay window [23730000, 23740000): fetched 10/10 blocks
+11:57:03  INFO     src.fetchers.zeromev — MEV relay window [23740000, 23750000): fetched 10/10 blocks
+11:57:03  INFO     src.fetchers.etherscan — Etherscan V2 window [23720000, 23730000): fetched 5/5 gas samples
+11:57:04  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23755000 (2025-10-13) → 300 pools assembled
+11:57:04  INFO     src.fetchers.etherscan — Etherscan V2 window [23730000, 23740000): fetched 5/5 gas samples
+11:57:05  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23765000 (2025-10-14) → 300 pools assembled
+11:57:12  INFO     src.fetchers.etherscan — Etherscan V2 window [23740000, 23750000): fetched 5/5 gas samples
+11:57:12  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23775000 (2025-10-16) → 300 pools assembled
+11:57:36  INFO     src.fetchers.zeromev — MEV relay window [23750000, 23760000): fetched 10/10 blocks
+11:57:37  INFO     src.fetchers.zeromev — MEV relay window [23760000, 23770000): fetched 10/10 blocks
+11:57:44  INFO     src.fetchers.etherscan — Etherscan V2 window [23750000, 23760000): fetched 5/5 gas samples
+11:57:44  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23785000 (2025-10-17) → 300 pools assembled
+11:57:44  INFO     src.fetchers.zeromev — MEV relay window [23770000, 23780000): fetched 10/10 blocks
+11:57:45  INFO     src.fetchers.etherscan — Etherscan V2 window [23760000, 23770000): fetched 5/5 gas samples
+11:57:45  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23795000 (2025-10-18) → 300 pools assembled
+11:57:53  INFO     src.fetchers.etherscan — Etherscan V2 window [23770000, 23780000): fetched 5/5 gas samples
+11:57:53  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23805000 (2025-10-20) → 300 pools assembled
+11:58:17  INFO     src.fetchers.zeromev — MEV relay window [23780000, 23790000): fetched 10/10 blocks
+11:58:18  INFO     src.fetchers.zeromev — MEV relay window [23790000, 23800000): fetched 10/10 blocks
+11:58:25  INFO     src.fetchers.etherscan — Etherscan V2 window [23780000, 23790000): fetched 5/5 gas samples
+11:58:26  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23815000 (2025-10-21) → 300 pools assembled
+11:58:27  INFO     src.fetchers.etherscan — Etherscan V2 window [23790000, 23800000): fetched 5/5 gas samples
+11:58:27  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23825000 (2025-10-23) → 300 pools assembled
+11:58:27  INFO     src.fetchers.zeromev — MEV relay window [23800000, 23810000): fetched 10/10 blocks
+11:58:35  INFO     src.fetchers.etherscan — Etherscan V2 window [23800000, 23810000): fetched 5/5 gas samples
+11:58:36  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23835000 (2025-10-24) → 300 pools assembled
+11:58:59  INFO     src.fetchers.zeromev — MEV relay window [23810000, 23820000): fetched 10/10 blocks
+11:59:00  INFO     src.fetchers.zeromev — MEV relay window [23820000, 23830000): fetched 10/10 blocks
+11:59:08  INFO     src.fetchers.etherscan — Etherscan V2 window [23820000, 23830000): fetched 5/5 gas samples
+11:59:08  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23845000 (2025-10-25) → 300 pools assembled
+11:59:08  INFO     src.fetchers.zeromev — MEV relay window [23830000, 23840000): fetched 10/10 blocks
+11:59:11  INFO     src.fetchers.etherscan — Etherscan V2 window [23810000, 23820000): fetched 5/5 gas samples
+11:59:11  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23855000 (2025-10-27) → 300 pools assembled
+11:59:16  INFO     src.fetchers.etherscan — Etherscan V2 window [23830000, 23840000): fetched 5/5 gas samples
+11:59:16  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23865000 (2025-10-28) → 300 pools assembled
+11:59:42  INFO     src.fetchers.zeromev — MEV relay window [23840000, 23850000): fetched 10/10 blocks
+11:59:44  INFO     src.fetchers.zeromev — MEV relay window [23850000, 23860000): fetched 10/10 blocks
+11:59:49  INFO     src.fetchers.zeromev — MEV relay window [23860000, 23870000): fetched 10/10 blocks
+11:59:52  INFO     src.fetchers.etherscan — Etherscan V2 window [23850000, 23860000): fetched 5/5 gas samples
+11:59:52  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23875000 (2025-10-30) → 300 pools assembled
+11:59:57  INFO     src.fetchers.etherscan — Etherscan V2 window [23860000, 23870000): fetched 5/5 gas samples
+11:59:57  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23885000 (2025-10-31) → 300 pools assembled
+11:59:59  INFO     src.fetchers.etherscan — Etherscan V2 window [23840000, 23850000): fetched 5/5 gas samples
+11:59:59  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23895000 (2025-11-01) → 300 pools assembled
+12:00:25  INFO     src.fetchers.zeromev — MEV relay window [23870000, 23880000): fetched 10/10 blocks
+12:00:31  INFO     src.fetchers.zeromev — MEV relay window [23890000, 23900000): fetched 10/10 blocks
+12:00:32  INFO     src.fetchers.zeromev — MEV relay window [23880000, 23890000): fetched 10/10 blocks
+12:00:32  INFO     src.fetchers.etherscan — Etherscan V2 window [23870000, 23880000): fetched 5/5 gas samples
+12:00:32  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23905000 (2025-11-03) → 300 pools assembled
+12:00:40  INFO     src.fetchers.etherscan — Etherscan V2 window [23890000, 23900000): fetched 5/5 gas samples
+12:00:40  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23915000 (2025-11-04) → 300 pools assembled
+12:00:40  INFO     src.fetchers.etherscan — Etherscan V2 window [23880000, 23890000): fetched 5/5 gas samples
+12:00:40  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23925000 (2025-11-06) → 300 pools assembled
+12:01:09  INFO     src.fetchers.zeromev — MEV relay window [23900000, 23910000): fetched 10/10 blocks
+12:01:13  INFO     src.fetchers.zeromev — MEV relay window [23920000, 23930000): fetched 10/10 blocks
+12:01:17  INFO     src.fetchers.zeromev — MEV relay window [23910000, 23920000): fetched 10/10 blocks
+12:01:17  INFO     src.fetchers.etherscan — Etherscan V2 window [23900000, 23910000): fetched 5/5 gas samples
+12:01:17  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23935000 (2025-11-07) → 300 pools assembled
+12:01:22  INFO     src.fetchers.etherscan — Etherscan V2 window [23920000, 23930000): fetched 5/5 gas samples
+12:01:22  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23945000 (2025-11-08) → 300 pools assembled
+12:01:25  INFO     src.fetchers.etherscan — Etherscan V2 window [23910000, 23920000): fetched 5/5 gas samples
+12:01:25  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23955000 (2025-11-10) → 300 pools assembled
+12:01:51  INFO     src.fetchers.zeromev — MEV relay window [23930000, 23940000): fetched 10/10 blocks
+12:01:54  INFO     src.fetchers.zeromev — MEV relay window [23940000, 23950000): fetched 10/10 blocks
+12:01:58  INFO     src.fetchers.zeromev — MEV relay window [23950000, 23960000): fetched 10/10 blocks
+12:02:00  INFO     src.fetchers.etherscan — Etherscan V2 window [23930000, 23940000): fetched 5/5 gas samples
+12:02:00  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23965000 (2025-11-11) → 300 pools assembled
+12:02:06  INFO     src.fetchers.etherscan — Etherscan V2 window [23940000, 23950000): fetched 5/5 gas samples
+12:02:06  INFO     pipeline —   Progress: 225/263 (86%) | elapsed 2391s | ETA 404s
+12:02:06  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23975000 (2025-11-12) → 300 pools assembled
+12:02:06  INFO     src.fetchers.etherscan — Etherscan V2 window [23950000, 23960000): fetched 5/5 gas samples
+12:02:06  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23985000 (2025-11-14) → 300 pools assembled
+12:02:33  INFO     src.fetchers.zeromev — MEV relay window [23960000, 23970000): fetched 10/10 blocks
+12:02:38  INFO     src.fetchers.zeromev — MEV relay window [23970000, 23980000): fetched 10/10 blocks
+12:02:39  INFO     src.fetchers.zeromev — MEV relay window [23980000, 23990000): fetched 10/10 blocks
+12:02:41  INFO     src.fetchers.etherscan — Etherscan V2 window [23960000, 23970000): fetched 5/5 gas samples
+12:02:41  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 23995000 (2025-11-15) → 300 pools assembled
+12:02:46  INFO     src.fetchers.etherscan — Etherscan V2 window [23970000, 23980000): fetched 5/5 gas samples
+12:02:47  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24005000 (2025-11-17) → 300 pools assembled
+12:02:48  INFO     src.fetchers.etherscan — Etherscan V2 window [23980000, 23990000): fetched 5/5 gas samples
+12:02:48  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24015000 (2025-11-18) → 300 pools assembled
+12:03:14  INFO     src.fetchers.zeromev — MEV relay window [23990000, 24000000): fetched 10/10 blocks
+12:03:19  INFO     src.fetchers.zeromev — MEV relay window [24000000, 24010000): fetched 10/10 blocks
+12:03:20  INFO     src.fetchers.zeromev — MEV relay window [24010000, 24020000): fetched 10/10 blocks
+12:03:23  INFO     src.fetchers.etherscan — Etherscan V2 window [23990000, 24000000): fetched 5/5 gas samples
+12:03:23  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24025000 (2025-11-19) → 300 pools assembled
+12:03:28  INFO     src.fetchers.etherscan — Etherscan V2 window [24000000, 24010000): fetched 5/5 gas samples
+12:03:28  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24035000 (2025-11-21) → 300 pools assembled
+12:03:29  INFO     src.fetchers.etherscan — Etherscan V2 window [24010000, 24020000): fetched 5/5 gas samples
+12:03:29  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24045000 (2025-11-22) → 300 pools assembled
+12:03:56  INFO     src.fetchers.zeromev — MEV relay window [24020000, 24030000): fetched 10/10 blocks
+12:04:02  INFO     src.fetchers.zeromev — MEV relay window [24040000, 24050000): fetched 10/10 blocks
+12:04:02  INFO     src.fetchers.zeromev — MEV relay window [24030000, 24040000): fetched 10/10 blocks
+12:04:05  INFO     src.fetchers.etherscan — Etherscan V2 window [24020000, 24030000): fetched 5/5 gas samples
+12:04:05  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24055000 (2025-11-24) → 300 pools assembled
+12:04:10  INFO     src.fetchers.etherscan — Etherscan V2 window [24040000, 24050000): fetched 5/5 gas samples
+12:04:11  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24065000 (2025-11-25) → 300 pools assembled
+12:04:11  INFO     src.fetchers.etherscan — Etherscan V2 window [24030000, 24040000): fetched 5/5 gas samples
+12:04:11  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24075000 (2025-11-26) → 300 pools assembled
+12:04:38  INFO     src.fetchers.zeromev — MEV relay window [24050000, 24060000): fetched 10/10 blocks
+12:04:43  INFO     src.fetchers.zeromev — MEV relay window [24060000, 24070000): fetched 10/10 blocks
+12:04:44  INFO     src.fetchers.zeromev — MEV relay window [24070000, 24080000): fetched 10/10 blocks
+12:04:47  INFO     src.fetchers.etherscan — Etherscan V2 window [24050000, 24060000): fetched 5/5 gas samples
+12:04:47  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24085000 (2025-11-28) → 300 pools assembled
+12:04:52  INFO     src.fetchers.etherscan — Etherscan V2 window [24060000, 24070000): fetched 5/5 gas samples
+12:04:52  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24095000 (2025-11-29) → 300 pools assembled
+12:04:54  INFO     src.fetchers.etherscan — Etherscan V2 window [24070000, 24080000): fetched 5/5 gas samples
+12:04:54  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24105000 (2025-12-01) → 300 pools assembled
+12:05:20  INFO     src.fetchers.zeromev — MEV relay window [24080000, 24090000): fetched 10/10 blocks
+12:05:24  INFO     src.fetchers.zeromev — MEV relay window [24090000, 24100000): fetched 10/10 blocks
+12:05:26  INFO     src.fetchers.zeromev — MEV relay window [24100000, 24110000): fetched 10/10 blocks
+12:05:28  INFO     src.fetchers.etherscan — Etherscan V2 window [24080000, 24090000): fetched 5/5 gas samples
+12:05:29  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24115000 (2025-12-02) → 300 pools assembled
+12:05:32  INFO     src.fetchers.etherscan — Etherscan V2 window [24090000, 24100000): fetched 5/5 gas samples
+12:05:33  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24125000 (2025-12-03) → 300 pools assembled
+12:05:34  INFO     src.fetchers.etherscan — Etherscan V2 window [24100000, 24110000): fetched 5/5 gas samples
+12:05:34  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24135000 (2025-12-05) → 300 pools assembled
+12:06:01  INFO     src.fetchers.zeromev — MEV relay window [24110000, 24120000): fetched 10/10 blocks
+12:06:05  INFO     src.fetchers.zeromev — MEV relay window [24120000, 24130000): fetched 10/10 blocks
+12:06:07  INFO     src.fetchers.zeromev — MEV relay window [24130000, 24140000): fetched 10/10 blocks
+12:06:09  INFO     src.fetchers.etherscan — Etherscan V2 window [24110000, 24120000): fetched 5/5 gas samples
+12:06:09  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24145000 (2025-12-06) → 300 pools assembled
+12:06:14  INFO     src.fetchers.etherscan — Etherscan V2 window [24120000, 24130000): fetched 5/5 gas samples
+12:06:14  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24155000 (2025-12-07) → 300 pools assembled
+12:06:16  INFO     src.fetchers.etherscan — Etherscan V2 window [24130000, 24140000): fetched 5/5 gas samples
+12:06:16  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24165000 (2025-12-09) → 300 pools assembled
+12:06:42  INFO     src.fetchers.zeromev — MEV relay window [24140000, 24150000): fetched 10/10 blocks
+12:06:49  INFO     src.fetchers.zeromev — MEV relay window [24160000, 24170000): fetched 10/10 blocks
+12:06:49  INFO     src.fetchers.zeromev — MEV relay window [24150000, 24160000): fetched 10/10 blocks
+12:06:51  INFO     src.fetchers.etherscan — Etherscan V2 window [24140000, 24150000): fetched 5/5 gas samples
+12:06:51  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24175000 (2025-12-10) → 300 pools assembled
+12:06:57  INFO     src.fetchers.etherscan — Etherscan V2 window [24150000, 24160000): fetched 5/5 gas samples
+12:06:57  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24185000 (2025-12-12) → 300 pools assembled
+12:06:58  INFO     src.fetchers.etherscan — Etherscan V2 window [24160000, 24170000): fetched 5/5 gas samples
+12:06:58  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24195000 (2025-12-13) → 300 pools assembled
+12:07:24  INFO     src.fetchers.zeromev — MEV relay window [24170000, 24180000): fetched 10/10 blocks
+12:07:30  INFO     src.fetchers.zeromev — MEV relay window [24190000, 24200000): fetched 10/10 blocks
+12:07:31  INFO     src.fetchers.zeromev — MEV relay window [24180000, 24190000): fetched 10/10 blocks
+12:07:33  INFO     src.fetchers.etherscan — Etherscan V2 window [24170000, 24180000): fetched 5/5 gas samples
+12:07:33  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24205000 (2025-12-14) → 300 pools assembled
+12:07:39  INFO     src.fetchers.etherscan — Etherscan V2 window [24190000, 24200000): fetched 5/5 gas samples
+12:07:40  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24215000 (2025-12-16) → 300 pools assembled
+12:07:40  INFO     src.fetchers.etherscan — Etherscan V2 window [24180000, 24190000): fetched 5/5 gas samples
+12:07:40  INFO     pipeline —   Progress: 250/263 (95%) | elapsed 2725s | ETA 142s
+12:07:40  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24225000 (2025-12-17) → 300 pools assembled
+12:08:07  INFO     src.fetchers.zeromev — MEV relay window [24200000, 24210000): fetched 10/10 blocks
+12:08:13  INFO     src.fetchers.zeromev — MEV relay window [24210000, 24220000): fetched 10/10 blocks
+12:08:13  INFO     src.fetchers.zeromev — MEV relay window [24220000, 24230000): fetched 10/10 blocks
+12:08:15  INFO     src.fetchers.etherscan — Etherscan V2 window [24200000, 24210000): fetched 5/5 gas samples
+12:08:16  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24235000 (2025-12-19) → 300 pools assembled
+12:08:21  INFO     src.fetchers.etherscan — Etherscan V2 window [24210000, 24220000): fetched 5/5 gas samples
+12:08:21  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24245000 (2025-12-20) → 300 pools assembled
+12:08:22  INFO     src.fetchers.etherscan — Etherscan V2 window [24220000, 24230000): fetched 5/5 gas samples
+12:08:22  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24255000 (2025-12-21) → 300 pools assembled
+12:08:49  INFO     src.fetchers.zeromev — MEV relay window [24230000, 24240000): fetched 10/10 blocks
+12:08:54  INFO     src.fetchers.zeromev — MEV relay window [24240000, 24250000): fetched 10/10 blocks
+12:08:55  INFO     src.fetchers.zeromev — MEV relay window [24250000, 24260000): fetched 10/10 blocks
+12:08:58  INFO     src.fetchers.etherscan — Etherscan V2 window [24230000, 24240000): fetched 5/5 gas samples
+12:08:58  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24265000 (2025-12-23) → 300 pools assembled
+12:09:03  INFO     src.fetchers.etherscan — Etherscan V2 window [24250000, 24260000): fetched 5/5 gas samples
+12:09:03  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24275000 (2025-12-24) → 300 pools assembled
+12:09:04  INFO     src.fetchers.etherscan — Etherscan V2 window [24240000, 24250000): fetched 5/5 gas samples
+12:09:04  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24285000 (2025-12-26) → 300 pools assembled
+12:09:31  INFO     src.fetchers.zeromev — MEV relay window [24260000, 24270000): fetched 10/10 blocks
+12:09:36  INFO     src.fetchers.zeromev — MEV relay window [24270000, 24280000): fetched 10/10 blocks
+12:09:37  INFO     src.fetchers.zeromev — MEV relay window [24280000, 24290000): fetched 10/10 blocks
+12:09:40  INFO     src.fetchers.etherscan — Etherscan V2 window [24260000, 24270000): fetched 5/5 gas samples
+12:09:40  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24295000 (2025-12-27) → 300 pools assembled
+12:09:46  INFO     src.fetchers.etherscan — Etherscan V2 window [24280000, 24290000): fetched 5/5 gas samples
+12:09:46  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24305000 (2025-12-28) → 300 pools assembled
+12:09:46  INFO     src.fetchers.etherscan — Etherscan V2 window [24270000, 24280000): fetched 5/5 gas samples
+12:09:46  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24315000 (2025-12-30) → 300 pools assembled
+12:10:13  INFO     src.fetchers.zeromev — MEV relay window [24290000, 24300000): fetched 10/10 blocks
+12:10:19  INFO     src.fetchers.zeromev — MEV relay window [24300000, 24310000): fetched 10/10 blocks
+12:10:19  INFO     src.fetchers.zeromev — MEV relay window [24310000, 24320000): fetched 10/10 blocks
+12:10:22  INFO     src.fetchers.etherscan — Etherscan V2 window [24290000, 24300000): fetched 5/5 gas samples
+12:10:22  INFO     src.fetchers.uniswap_subgraph — fetch_pools_at_block: block 24325000 (2025-12-31) → 300 pools assembled
+12:10:28  INFO     src.fetchers.etherscan — Etherscan V2 window [24310000, 24320000): fetched 5/5 gas samples
+12:10:28  INFO     src.fetchers.etherscan — Etherscan V2 window [24300000, 24310000): fetched 5/5 gas samples
+12:10:56  INFO     src.fetchers.zeromev — MEV relay window [24320000, 24330000): fetched 10/10 blocks
+12:11:05  INFO     src.fetchers.etherscan — Etherscan V2 window [24320000, 24330000): fetched 5/5 gas samples
+12:11:05  INFO     pipeline —   Progress: 263/263 (100%) | elapsed 2930s | ETA 0s
+12:11:05  INFO     pipeline — Pipeline complete in 2930s
+12:11:05  INFO     pipeline —   Data provenance — real: 100%  partial: 0%  synthetic: 0%
+12:11:05  INFO     pipeline —   MEV intensity: mean=0.4228  std=0.5480  max=3.1058
+12:11:05  INFO     pipeline —   Modularity: mean=0.255  std=0.037
+12:11:05  INFO     pipeline —   Saved → data/processed/windows_500_real.csv
