@@ -79,7 +79,7 @@ MEV_REGIME_HIGH_PERCENTILE = 67
 # ============================================================
 # Phase transition fit failed on real data (R²=0.29, no sigmoid)
 # These are initial guesses for curve_fit; actual fit is degenerate
-I_STAR = 0.30   # approximate median MEV intensity
+I_STAR = 0.12   # calibrated: σ_p=0.02, ρ_inter=0.3, μ=0.001, w0/wmin=10
 KAPPA  = 5.0
 Q_MIN  = 0.20
 Q_MAX  = 0.10

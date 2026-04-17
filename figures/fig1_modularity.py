@@ -65,12 +65,21 @@ def plot_modularity_evolution(df, save_path=None):
     ax2.set_ylabel(r'Graph Modularity $Q$', fontsize=8)
     ax2.set_xlabel('Block Number (millions)', fontsize=8)
     ax2.tick_params(labelsize=7)
-    ax2.set_ylim(0, 1.05)
+    ax2.set_ylim(0, 0.45)
     ax2.set_xlim(blocks[0], blocks[-1])
 
-    # Annotation for modularity increase
-    ax2.annotate(f'{ratio:.1f}' + r'$\times$ increase', xy=(blocks[len(blocks)//3], 0.92),
-                fontsize=7, color='#C0392B', fontstyle='italic')
+    # Annotation: show decrease (high MEV → lower Q) or increase correctly
+    mid_x = blocks[len(blocks) // 2]
+    if ratio < 1.0:
+        pct = (1 - ratio) * 100
+        label = rf'$-{pct:.0f}\%$ during high MEV'
+        ann_y = high_q + 0.04
+    else:
+        label = rf'${ratio:.1f}\times$ increase'
+        ann_y = high_q + 0.04
+    ax2.annotate(label, xy=(mid_x, ann_y),
+                fontsize=7, color='#C0392B', fontstyle='italic',
+                ha='center')
 
     # Legend
     from matplotlib.patches import Patch

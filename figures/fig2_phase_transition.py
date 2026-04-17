@@ -73,22 +73,28 @@ def plot_phase_transition(df, save_path=None):
         I_star_fit = C.I_STAR
         r_squared = 0.87
 
-    # Critical threshold (use fitted value, fallback to config)
-    ax.axvline(x=I_star_fit, color='#E74C3C', linestyle='--', linewidth=1, alpha=0.8, zorder=4)
-    ax.text(I_star_fit + 0.003, 0.08, r'$I^*=' + f'{I_star_fit:.3f}$',
-            fontsize=7, color='#E74C3C', rotation=90, va='bottom')
+    # Critical threshold: always show theoretical I* from calibrated parameters
+    # (fitted I_star_fit may be degenerate when fit fails on real data)
+    theoretical_I_star = 0.12  # from σ_p=0.02, ρ_inter=0.3, μ=0.001, w0/wmin=10
+    ax.axvline(x=theoretical_I_star, color='#E74C3C', linestyle='--',
+               linewidth=1, alpha=0.8, zorder=4)
+    ax.text(theoretical_I_star + 0.04, 0.32,
+            r'Theoretical $I^*=0.12$',
+            fontsize=6.5, color='#E74C3C', va='top', ha='left')
 
-    # Annotations
-    ax.annotate('Connected\nregime', xy=(0.015, 0.35), fontsize=6.5,
-                color='#3498DB', ha='center', fontstyle='italic')
-    ax.annotate('Fragmented\nregime', xy=(0.14, 0.85), fontsize=6.5,
-                color='#E74C3C', ha='center', fontstyle='italic')
+    # Label empirical mean MEV
+    mev_mean = mev.mean()
+    ax.axvline(x=mev_mean, color='#7F8C8D', linestyle=':', linewidth=0.8,
+               alpha=0.6, zorder=3)
+    ax.text(mev_mean + 0.04, 0.06,
+            rf'Empirical $\bar{{I}}={mev_mean:.2f}$',
+            fontsize=6.5, color='#7F8C8D', va='bottom', ha='left')
 
     ax.set_xlabel(r'Smoothed MEV Intensity $\bar{I}$', fontsize=8)
     ax.set_ylabel(r'Graph Modularity $Q$', fontsize=8)
     ax.tick_params(labelsize=7)
     ax.set_xlim(0, C.MEV_MAX + 0.005)
-    ax.set_ylim(0, 1.05)
+    ax.set_ylim(0, 0.45)
 
     ax.legend(fontsize=6.5, loc='center right', framealpha=0.9, edgecolor='#BDC3C7')
 
